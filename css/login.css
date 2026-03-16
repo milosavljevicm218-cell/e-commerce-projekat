@@ -1,0 +1,10 @@
+.custom-form-box .form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.custom-form-box .form-control:focus {
+    border-color: #8b7355;
+    box-shadow: 0 0 0 0.25rem rgba(139, 115, 85, 0.25);
+}

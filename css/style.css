@@ -1,0 +1,147 @@
+body {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+header.shadow-sm,
+footer.footer-custom {
+    background-color: rgba(180, 105, 43, 0.693);
+    color: #ffffff;
+}
+
+
+header .form-control {
+    width: 200px;
+    height: 38px;
+    display: inline-block;
+    padding: 5px 12px;
+    margin-right: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+header .form-control:focus {
+
+    border-color: #8b7355; 
+    box-shadow: 0 0 0 0.25rem rgba(139, 115, 85, 0.25); 
+    outline: 0;
+}
+
+.product-card,
+.custom-form-box,
+.custom-cart-review {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+.btn-luxor {
+    background-color: #8b7355;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-luxor:hover {
+    background-color: #6f5a42;
+    color: #fff;
+}
+
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #8b7355;
+}
+
+header .logo {
+
+    transition: transform 0.3s;
+}
+
+
+.logo-img {
+    width: 50px;
+    height: auto;
+    
+}
+
+.nav-icon {
+    width: 35px;
+    transition: transform 0.3s;
+    filter: brightness(0) invert(1);
+}
+
+.nav-icon:hover {
+    transform: scale(1.1);
+     filter: brightness(0) invert(1) drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
+
+footer.footer-custom {
+    background-color: rgba(180, 105, 43, 0.693);
+    color: #ffffff;
+}
+
+
+footer.footer-custom ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+footer.footer-custom ul.list-unstyled li a:hover {
+    color: #f1ebd8;
+    transform: translateX(5px);
+}
+
+
+footer.footer-custom h3 {
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-nav a img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(0) invert(1);
+}
+
+
+.footer-nav a:hover img {
+    transform: scale(1.2);
+    filter: brightness(0) invert(1) drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
+
+
+footer.footer-custom hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+footer.footer-custom p.mb-0 {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
